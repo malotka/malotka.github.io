@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 
 	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
 	<!--fontawsome-->
 	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
@@ -17,30 +17,26 @@
 </head>
 <body>
 
-<nav class="navbar navbar-inverse navbar-fixed-top">
-	<div class="container">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
-        		<span class="sr-only">Toggle navigation</span>
-        		<span class="icon-bar"></span>
-        		<span class="icon-bar"></span>
-        		<span class="icon-bar"></span>
-      		</button>
-			<a href="#" class="navbar-brand"><i class="fa fa-code" aria-hidden="true"></i> malotka</a>
-		</div>
-		<div class="collapse navbar-collapse" id="bs-nav-demo">
-		<ul class="nav navbar-nav">
-			<li><a href="#About">About</a></li>
-			<li><a href="#Portfolio">Portfolio</a></li>
-			<li><a href="#Contact">Contact</a></li>
-		</ul>
-		<ul class="nav navbar-nav navbar-right">
-			<li><a href="https://www.facebook.com/krowawciapki" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
-			<li><a href="https://www.linkedin.com/in/sylwia-%C5%9Bwi%C4%85tkiewicz-597757a5/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-			<li><a href="https://github.com/malotka" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
-		</ul>
-		</div>
-	</div>
+<nav class="navbar sticky-top navbar-toggleable-md navbar-inverse">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#"><i class="fa fa-code" aria-hidden="true"></i> malotka</a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#About">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Portfolio">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Contact">Contact</a>
+      </li>
+    </ul>
+   		
+  </div>
 </nav>
 
 <div class="container">
@@ -48,7 +44,7 @@
 	<div id="content">
 		<h1 id="h1"><i class="fa fa-code" aria-hidden="true"></i> Malotka</h1>
 		<h3>Front-End Developer with testing background.</h3>
-		<hr>
+		<hr id="hr">
 		<a href="#About"><button class="btn btn-default btn-lg"><i class="fa fa-hand-spock-o" aria-hidden="true"></i> Get to know me!</button></a>
 	</div>
 		
@@ -63,7 +59,7 @@
 
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="portfolio">
 				<h3>About Me</h3>
-				<hr>
+				<hr id="hr">
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -84,7 +80,7 @@
 
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="portfolio">
 		<h3>My Portfolio</h3>
-		<hr>
+		<hr id="hr">
 	</div>
 		
 	</div>
@@ -124,17 +120,32 @@
 
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="portfolio">
 		<h3>Contact Me</h3>
-		<hr>
+		<hr id="hr">
 	</div>
 		
 	</div>
+	<div class="row">
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+			<button class="btn btn-default btn-lg btn-outline-secondary"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</button>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+			<button class="btn btn-default btn-lg btn-outline-secondary"><i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn</button>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+			<button class="btn btn-default btn-lg btn-outline-secondary"><i class="fa fa-github-square" aria-hidden="true"></i> GitHub</button>
+		</div>
+	</div>
   	<div class="row">
-    	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-    		1 of 2
+    	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    		<iframe
+  				width="100%"
+  				height="100%"
+  				frameborder="0" style="border:0"
+  				src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCwvS5bSXn4VrpxmXkZ8Yq8mIVgWrousBE
+    &q=Wrocław" allowfullscreen>
+			</iframe>
     	</div>
-    	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-    		1 of 2
-    	</div>
+    	
   	</div>
 </div>
 
@@ -150,11 +161,8 @@
 <!--my js-->
 <script type="text/javascript" src="index.js"></script>
 <!-- Bootstrap js - Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-<!--jQuery-->
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </body>
 </html>
