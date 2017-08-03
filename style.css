@@ -1,0 +1,62 @@
+
+body {
+    background-image: url("https://source.unsplash.com/hH2ces_8gD0/1600x900");
+    background-size: cover;
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+#content {
+    text-align: center;
+    padding-top: 25%;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+    font-family: "Lato";
+    color: white;
+    height: 1000px;
+}
+
+hr {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgb(0,0,0, 0.2);
+
+}
+
+#h1 {
+    font-weight: 700;
+    font-size: 5em;
+}
+
+#portfolio {
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+    font-family: "Lato";
+    color: white;
+}
+
+.parallax { 
+    background-image: url("https://source.unsplash.com/9bdt03k4ujw/1600x900");
+    height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    background-image: url("https://source.unsplash.com/0_xMuEbpFAQ/1600x900");
+    height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.paragraph {
+  height: 500px;
+  background-color: black;
+}
