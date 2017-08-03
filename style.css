@@ -2,7 +2,6 @@
 body {
     background-image: url("https://source.unsplash.com/hH2ces_8gD0/1600x900");
     background-size: cover;
-    /*background-position: 50% 30%;*/
     background-repeat: no-repeat;
     background-attachment: fixed;
     
@@ -69,6 +68,23 @@ body {
 .paragraph {
   height: 100%;
   background-color: #191817;
+  margin: 20px 0px;
+}
+
+.icon {
+    -webkit-filter: grayscale(100%);
+       -moz-filter: grayscale(100%);
+         -o-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+            filter: grayscale(100%); 
+}
+
+.icon:hover {
+    -webkit-filter: grayscale(0%);
+       -moz-filter: grayscale(0%);
+         -o-filter: grayscale(0%);
+        -ms-filter: grayscale(0%);
+            filter: grayscale(0%); 
 }
 
 a:link {
