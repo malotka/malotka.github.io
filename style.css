@@ -74,12 +74,8 @@ p {
   background-color: #191817;
   padding: 20px 0px;
 }
-.img-thumbnail{
-    height: 150px;
-    width: auto;
-}
-.icon {
 
+#icon {
     height: 150px;
     width: auto;
     -webkit-filter: grayscale(100%);
@@ -89,7 +85,7 @@ p {
             filter: grayscale(100%); 
 }
 
-.icon:hover {
+#icon:hover {
     -webkit-filter: grayscale(0%);
        -moz-filter: grayscale(0%);
          -o-filter: grayscale(0%);
@@ -226,9 +222,27 @@ a:active {
   margin: 1em 0 0 0.75em;
 }
 
-/* ================ Timeline Media Queries ================ */
+/* ================ Media Queries ================ */
 
 @media screen and (max-width: 660px) {
+
+#icon {
+    height: 150px;
+    width: auto;
+    -webkit-filter: grayscale(100%);
+       -moz-filter: grayscale(100%);
+         -o-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+            filter: grayscale(100%); 
+}
+
+#icon:hover {
+    -webkit-filter: grayscale(0%);
+       -moz-filter: grayscale(0%);
+         -o-filter: grayscale(0%);
+        -ms-filter: grayscale(0%);
+            filter: grayscale(0%); 
+}
 
 .timeline {
     width: 100%;
@@ -314,5 +328,22 @@ a:active {
     margin: 1em 4em 0 4em;
 }
 
+#icon {
+    height: 150px;
+    width: auto;
+    -webkit-filter: grayscale(100%);
+       -moz-filter: grayscale(100%);
+         -o-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+            filter: grayscale(100%); 
 }
-=
+
+#icon:hover {
+    -webkit-filter: grayscale(0%);
+       -moz-filter: grayscale(0%);
+         -o-filter: grayscale(0%);
+        -ms-filter: grayscale(0%);
+            filter: grayscale(0%); 
+}
+
+}
