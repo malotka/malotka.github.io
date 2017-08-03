@@ -2,7 +2,7 @@
 body {
     background-image: url("https://source.unsplash.com/hH2ces_8gD0/1600x900");
     background-size: cover;
-    background-position: 50% 30%;
+    /*background-position: 50% 30%;*/
     background-repeat: no-repeat;
     background-attachment: fixed;
     
@@ -70,13 +70,6 @@ body {
   height: 100%;
   background-color: #191817;
 }
-
-.timeline1 {
-  padding-top: 100px;
-  margin-bottom: 100px;
-  min-height: 100%;
-}
-
 
 a:link {
     text-decoration: none;
