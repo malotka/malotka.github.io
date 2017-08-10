@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://source.unsplash.com/hH2ces_8gD0/1600x900");
+    background-image: url("https://source.unsplash.com/dUV3oohJzE8/1600x900");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -12,7 +12,7 @@ p {
 
 #content {
     text-align: center;
-    padding-top: 20%;
+    padding-top: 15%;
     text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
                  0px 8px 13px rgba(0,0,0,0.1),
                  0px 18px 23px rgba(0,0,0,0.1);
